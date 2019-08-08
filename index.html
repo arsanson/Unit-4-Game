@@ -19,7 +19,37 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+    <div class="background w-100 vh-100">
+        <div class="container mx-auto">
+            <div class="row mx-auto p-3 w-75">
+                <h1>Crystal Collector</h1>
+            </div>
+            <div class="row mx-auto p-3 bg-light w-75 d-flex align-items-start flex-column">
+                <div class="p-3 mx-auto">
+                    <h3>Instructions</h3>
+                </div>
+                <div class="p-3 mx-auto">
+                    <p>You're a TA, you know how to play...</p>
+                </div>
+            </div>
+            <div class="row mx-auto p-3 w-75" id="RandInt">random number</div>
+            <div class="row mx-auto p-3 w-75">
+                <button class="w-25" id="btn1" value="5"><img src="./assets/images/bluegem.jpg" class="img-responsive"></button>
+                <button class="w-25" id="btn2" value="5"><img src="assets/images/greengem.jpg" class="img-responsive"></button>
+                <button class="w-25" id="btn3" value="5"><img src="assets/images/pinkdiamond.jpg" class="img-responsive"></button>
+                <button class="w-25" id="btn4" value="5"><img src="assets/images/yellowgem.jpg" class="img-responsive"></button>
+            </div>
+            <div class="row mx-auto w-75">
+                <div class="column p-3 w-50" id="userScore">your score</div>
+                <div class="column p-3 w-50">
+                    <div id="wins" value="0">wins: </div>
+                    <div id="losses" value="0">losses: </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
